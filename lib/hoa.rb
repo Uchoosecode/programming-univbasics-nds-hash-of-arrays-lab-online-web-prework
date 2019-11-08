@@ -6,11 +6,11 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  show = {:chipmunks.push("Dave"),
+          :chipmunks.push("Dave"),
           :third_earthers.push("Snarf"),
           :jetsons.push("Astro")
-    }
-p show
+  
+
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
