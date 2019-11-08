@@ -6,9 +6,9 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  show = {:chipmunks << "Dave",
-          :third_earthers << "Snarf",
-          :jetsons << "Astro"
+  show = {:chipmunks.push("Dave"),
+          :third_earthers.push("Snarf"),
+          :jetsons.push("Astro")
     }
 p show
   # Write your implementation here
