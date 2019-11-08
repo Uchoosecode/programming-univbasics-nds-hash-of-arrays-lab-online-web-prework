@@ -10,7 +10,7 @@ def add_character(show, name)
   name = ["Dave", "Snarf", "Astro"]
    
 show.push(name)
-p show[name]
+p show
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
