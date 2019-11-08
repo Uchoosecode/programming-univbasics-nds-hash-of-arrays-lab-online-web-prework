@@ -9,7 +9,8 @@ def add_character(show, name)
   show = [:chipmunks, :third_earthers, :jetsons],
   name = ["Dave", "Snarf", "Astro"]
    
-return add_character[show] << name
+show.push(name)
+p show
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
