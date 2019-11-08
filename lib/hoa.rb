@@ -9,7 +9,7 @@ def add_character(show, name)
   name = ["Dave", "Snarf", "Astro"]
    
 BASE_HOA.push(name)
-p BASE_HOA
+p 
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
