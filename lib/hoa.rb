@@ -8,8 +8,8 @@ BASE_HOA = {
 def add_character(show, name)
   name = ["Dave", "Snarf", "Astro"]
    
-show.push(name)
-p show
+BASE_HOA.push(name)
+p BASE_HOA
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
